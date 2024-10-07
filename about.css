@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top:150px;
+}
+
+
+.about-us {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2,
+.about-us h3 {
+    color: #007BFF; /* Subheading color */
+}
+
+.about-us ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
